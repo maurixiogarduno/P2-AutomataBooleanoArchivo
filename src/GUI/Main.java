@@ -153,7 +153,7 @@ public class Main extends javax.swing.JFrame {
         // TODO add your handling code here:
         TxtA_tokens.setText("");
         TxtA_validaciones.setText("");
-        
+
         leerArchivo();
     }//GEN-LAST:event_Btn_limpiarActionPerformed
 
@@ -183,7 +183,7 @@ public class Main extends javax.swing.JFrame {
         //URL path = this.getClass().getResource("/reportes/Ticked.jasper");
 
         // Fichero del que queremos leer
-        File fichero = new File("/Users/mauricio/Desktop/Programas Mike/P2-Automata BooleanoArchivo/src/archivo/tokens.txt");
+        File fichero = new File("/Users/Jedidian/Documents/GitHub/Java/P2-AutomataBooleanoArchivo/src/archivo/tokens.txt");
         Scanner s = null;
 
         try {
@@ -218,8 +218,8 @@ public class Main extends javax.swing.JFrame {
                     } else {
                         cNueva = cAnterior + " Cadena No valida" + "\n";
                     }
-                    
-                     TxtA_validaciones.setText(cNueva);
+
+                    TxtA_validaciones.setText(cNueva);
                 }
             }
 
